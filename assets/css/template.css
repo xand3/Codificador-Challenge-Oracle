@@ -3,15 +3,18 @@ html, body {
     padding: 0;
     box-sizing: border-box;
     height: 100%;
+    background-color: #F3F5FC;
 }
 textarea {
     resize: none;
     height: 100%;
     border-radius: 30px;
+    outline: none;
 }
 #text {
     padding: 20px;
     border: none;
+    background-color: #F3F5FC;
 }
 #result {
     border: none;
@@ -29,4 +32,15 @@ textarea {
 }
 .border-none {
     border: none;
+    background-color: #F3F5FC;
+}
+.btn-primary {
+    background-color: #0A3871;
+}
+.btn-outline-secondary {
+    border-color: #0A3871;
+    color: #0A3871;
+}
+footer img {
+    width: 35px;
 }
