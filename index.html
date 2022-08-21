@@ -19,6 +19,7 @@
         crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="assets/css/template.css">
+    <link rel="stylesheet" href="assets/css/media-queries.css">
 
     <script src="assets/js/main.js" defer></script>
     <title>Codificador</title>
@@ -37,7 +38,7 @@
     </header>
 
     <main>
-        <div class="d-flex flex-row container mb-2">
+        <div class="d-flex container mb-2 fd-c">
             <div class="input-area">
                 <div class="card border-none">
                     <textarea autofocus name="" id="text" placeholder="Digite aqui a mensagem para criptografar"></textarea>
@@ -58,7 +59,7 @@
                     <textarea name="" id="result" readonly></textarea>
                     <div class="card-body">
                             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                                <button type="button" class="btn btn-outline-secondary btn-lg px-4">COPIAR</button>
+                                <button type="button" id="copiar" class="btn btn-outline-secondary btn-lg px-4">COPIAR</button>
                             </div>
                     </div>
                 </div>
@@ -72,16 +73,18 @@
         </div>
 
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <li class="ms-3">
-                <a href="https://github.com/xand3" target="_blank">
-                    <img src="assets/img/github.png" alt="github">
-                </a>
-            </li>
-            <li class="ms-3">
-                <a href="https://www.linkedin.com/in/alexandr3-bastos/" target="_blank">
-                    <img src="assets/img/logotipo-do-linkedin.png" alt="linkedin" srcset="">
-                </a>
-            </li>
+            <div class="icons">
+                <li class="ms-3">
+                    <a href="https://github.com/xand3" target="_blank">
+                        <img src="assets/img/github.png" alt="github">
+                    </a>
+                </li>
+                <li class="ms-3">
+                    <a href="https://www.linkedin.com/in/alexandr3-bastos/" target="_blank">
+                        <img src="assets/img/logotipo-do-linkedin.png" alt="linkedin" srcset="">
+                    </a>
+                </li>
+            </div>
         </ul>
     </footer>
 </body>

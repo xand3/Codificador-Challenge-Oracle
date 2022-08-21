@@ -1,0 +1,31 @@
+@media (max-width: 990px) {
+    .input-area {
+        width: 60%;
+    }
+    .result-area {
+        width: 40%;
+    }
+}
+@media (max-width: 768px) {
+    .d-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .result-area {
+        width: 100%;
+        margin: 0px;
+    }
+    .icons {
+        display: flex;
+    }
+}
+@media (max-width: 575px) {
+    .d-grid {
+        justify-content: center;
+    }
+}
+@media (max-width: 330px) {
+    #copiar {
+        width: 260px;
+    }
+}

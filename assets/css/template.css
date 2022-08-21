@@ -69,3 +69,6 @@ textarea {
 footer img {
     width: 35px;
 }
+.icons {
+    display: flex;
+}
