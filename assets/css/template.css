@@ -72,3 +72,20 @@ footer img {
 .icons {
     display: flex;
 }
+.textarea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+    text-align: center;
+}
+.textarea img {
+    width: 18em;
+}
+.title {
+    font-weight: bold;
+}
+#copiar {
+    display: none;
+}
