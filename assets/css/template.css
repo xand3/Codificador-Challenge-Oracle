@@ -1,0 +1,34 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+.content {
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+}
+#mensagem {
+    resize: none;
+}
+#resultado {
+    resize: none;
+}
+.codificador-area {
+    background-color: blueviolet;
+}
+.resultado-area {
+    background-color: blue;
+}
+
+
+
+footer {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+	bottom: 0;
+	left: 0;
+    background-color: aqua;
+}
