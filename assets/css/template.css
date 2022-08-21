@@ -2,8 +2,12 @@ html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    height: 100%;
+    min-height: 100%;
     background-color: #F3F5FC;
+    font-family: 'Red Hat Display', sans-serif;
+}
+header {
+    margin-top: 10px;
 }
 textarea {
     resize: none;
@@ -21,13 +25,13 @@ textarea {
     padding: 20px;
 }
 .input-area {
-    width: 70%;
+    width: 60%;
 }
 .result-area {
     width: 30%;
 }
 .card {
-    height: 500px;
+    height: 600px;
     border-radius: 30px;
 }
 .border-none {
@@ -40,6 +44,27 @@ textarea {
 .btn-outline-secondary {
     border-color: #0A3871;
     color: #0A3871;
+}
+.aviso {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.aviso img {
+    height: 16px;
+}
+.aviso p {
+    margin: 0;
+    margin-left: 5px;
+}
+.btn {
+    width: 280px;
+    height: 55px;
+    border-radius: 20px;
+}
+.shadow {
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
 }
 footer img {
     width: 35px;

@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+
     <script defer src="assets/js/jquery-3.6.0.min.js"></script>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -38,6 +42,10 @@
                 <div class="card border-none">
                     <textarea autofocus name="" id="text" placeholder="Digite aqui a mensagem para criptografar"></textarea>
                     <div class="card-body">
+                        <div class="aviso">
+                            <img src="assets/img/Vector.png" alt="" srcset="">
+                            <p>Apenas letras minúsculas e sem acento</p>
+                        </div>
                             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
                                 <button type="button" class="btn btn-primary btn-lg px-4 gap-3">CRIPTOGRAFAR</button>
                                 <button type="button" class="btn btn-outline-secondary btn-lg px-4">DESCRIPTOGRAFAR</button>
@@ -46,7 +54,7 @@
                 </div>
             </div>
             <div class="result-area">
-                <div class="card ms-4">
+                <div class="card ms-4 shadow">
                     <textarea name="" id="result" readonly></textarea>
                     <div class="card-body">
                             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
@@ -60,11 +68,6 @@
 
     <footer class="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <div class="col-md-4 d-flex align-items-center">
-            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-                <svg class="bi" width="30" height="24">
-                    <use xlink:href="#bootstrap" />
-                </svg>
-            </a>
             <span class="mb-3 mb-md-0 text-muted">&copy; Alexandre Bastos</span>
         </div>
 
@@ -79,7 +82,6 @@
                     <img src="assets/img/logotipo-do-linkedin.png" alt="linkedin" srcset="">
                 </a>
             </li>
-            
         </ul>
     </footer>
 </body>
