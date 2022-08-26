@@ -48,8 +48,8 @@
                             <p>Apenas letras minúsculas e sem acento</p>
                         </div>
                             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                                <button type="button" class="btn btn-primary btn-lg px-4 gap-3">CRIPTOGRAFAR</button>
-                                <button type="button" class="btn btn-outline-secondary btn-lg px-4">DESCRIPTOGRAFAR</button>
+                                <button type="button" id="criptografar" class="btn btn-primary btn-lg px-4 gap-3">CRIPTOGRAFAR</button>
+                                <button type="button" id="" class="btn btn-outline-secondary btn-lg px-4">DESCRIPTOGRAFAR</button>
                             </div>
                     </div>
                 </div>
@@ -57,13 +57,14 @@
             <div class="result-area">
                 <div class="card ms-4 shadow">
                     <div class="textarea">
-                        <img src="assets/img/hero.png" alt="" srcset="">
-                        <h5 class="title">Nenhuma mensagem encontrada</h5>
-                        <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                        <img class="remove" src="assets/img/hero.png" alt="" srcset="">
+                        <h5 class="title remove">Nenhuma mensagem encontrada</h5>
+                        <p class="remove">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                        <textarea name="" id="result" readonly style="display: none;"></textarea>
                     </div>
                     <div class="card-body">
                             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                                <button type="button" id="copiar" class="btn btn-outline-secondary btn-lg px-4">COPIAR</button>
+                                <button type="button" id="copy" class="btn btn-outline-secondary btn-lg px-4" style="display: none;">COPIAR</button>
                             </div>
                     </div>
                 </div>
