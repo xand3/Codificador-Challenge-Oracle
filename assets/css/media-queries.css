@@ -31,7 +31,7 @@
 }
 @media (max-width: 575px) {
     .input-area {
-        width: 50vh;
+        width: 45vh;
     }
     .d-grid {
         justify-content: center;
