@@ -73,3 +73,25 @@ $("#descriptografar").click( () => {
         inputText.val('')
     }
 })
+
+function switchTheme() {
+    let btn = document.getElementById("switchTheme")
+    if(btn.checked) {
+        console.log("ON")
+        $( "html" ).addClass( "dark" )
+        $( "body" ).addClass( "dark fontColor" )
+        $("textarea").addClass("card-dark")
+        $("#card").addClass("card-dark fontColor")
+        $(".shadow").addClass("card-dark")
+        $("#textFooter").addClass("fontColor")
+        $("#text").addClass("fontColor")
+    } else {
+        console.log("OFF")
+        $( "html" ).removeClass( "dark" )
+        $( "body" ).removeClass( "dark fontColor" )
+        $("textarea").removeClass("card-dark")
+        $("#card").removeClass("card-dark fontColor")
+        $(".shadow").removeClass("card-dark")
+        $("#textFooter").removeClass("fontColor")
+    }
+}
