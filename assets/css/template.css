@@ -89,3 +89,15 @@ footer img {
 #copiar {
     display: none;
 }
+.dark {
+    background-color: #14213D;
+}
+.card-dark {
+    background-color: #8b94a3;
+}
+.fontColor {
+    color: #F3F5FC;
+}
+textarea::placeholder {
+    color: #0A3871;
+}
