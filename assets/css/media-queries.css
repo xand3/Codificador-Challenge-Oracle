@@ -1,15 +1,22 @@
 @media (max-width: 990px) {
     .input-area {
-        width: 60%;
+        width: 70vh;
     }
     .result-area {
         width: 40%;
+        padding-top: 10px;
+    }
+    .btn {
+        width: 300px;
     }
 }
 @media (max-width: 768px) {
     .d-flex {
         flex-direction: column;
         align-items: center;
+    }
+    .input-area {
+        width: 70vh;
     }
     .result-area {
         width: 100%;
@@ -18,14 +25,26 @@
     .icons {
         display: flex;
     }
+    .btn {
+        width: 260px;
+    }
 }
 @media (max-width: 575px) {
+    .input-area {
+        width: 50vh;
+    }
     .d-grid {
         justify-content: center;
+    }
+    .btn {
+        width: 260px;
     }
 }
 @media (max-width: 330px) {
     #copiar {
+        width: 260px;
+    }
+    .btn {
         width: 260px;
     }
 }
