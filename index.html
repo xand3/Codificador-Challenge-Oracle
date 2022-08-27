@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="">
 
 <head>
     <meta charset="UTF-8">
@@ -25,7 +25,7 @@
     <title>Codificador</title>
 </head>
 
-<body>
+<body class="">
     <header class="container">
         <nav class="navbar">
             <div class="container-fluid">
@@ -33,7 +33,7 @@
                     <img src="assets/img/logo-alura.png" alt="Logo da Alura" class="d-inline-block align-text-top">
                 </a>
                 <div class="form-check form-switch">
-                    <input class="form-check-input" type="checkbox" id="switchTheme">
+                    <input onclick="switchTheme()" class="form-check-input" type="checkbox" id="switchTheme">
                     <label class="form-check-label" for="switchTheme">Tema</label>
                 </div>
             </div>
@@ -44,8 +44,8 @@
     <main>
         <div class="d-flex container mb-2 fd-c">
             <div class="input-area">
-                <div class="card border-none">
-                    <textarea autofocus name="" id="text" placeholder="Digite aqui a mensagem para criptografar"></textarea>
+                <div id="card" class="card border-none">
+                    <textarea class="text" autofocus id="text" placeholder="Digite aqui a mensagem para criptografar"></textarea>
                     <div class="card-body">
                         <div class="aviso">
                             <img src="assets/img/Vector.png" alt="" srcset="">
@@ -78,7 +78,9 @@
 
     <footer class="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <div class="col-md-4 d-flex align-items-center">
-            <span class="mb-3 mb-md-0 text-muted">&copy; Alexandre Bastos</span>
+            <span class="mb-3 mb-md-0 text-muted">
+                <p id="textFooter">&copy; Alexandre Bastos</p>
+            </span>
         </div>
 
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
