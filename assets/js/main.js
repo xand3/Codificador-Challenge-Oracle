@@ -74,8 +74,7 @@ $("#descriptografar").click(() => {
         decryptText = decrypt(text);
         result.val(decryptText);
         inputText.val("");
-    }
-
+    } 
 });
 
 function switchTheme() {
