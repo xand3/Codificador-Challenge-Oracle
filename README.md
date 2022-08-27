@@ -12,15 +12,20 @@ O método de criptografia empregado no desafio tinha como base substituir vogais
 ```
 ### LAYOUT
 Para desenvolver esse desafio foi fornecido um modelo de layout padrão, cabendo ao aluno a implementação do mesmo.
+
 <img width="600px" height="auto"  src="assets/img/Decodificador - 1 Desktop.png"></img>
+
 **Modelo para Desktop**
 
 <img width="600px" height="auto" src="assets/img/codificador.png"></img>
-**Resultado final** 
+
+**Meu resultado final** 
 
 ### EXTRAS
 Durante o desenvolvimento do projeto me veio a ideia de implementar um modo escuro para a página, abaixo está o resultado final:
+
 <img width="600px" height="auto" src="assets/img/codificador-dark.png"></img>
+
 
 ### BADGE DO DESAFIO
 
@@ -28,3 +33,4 @@ Durante o desenvolvimento do projeto me veio a ideia de implementar um modo escu
 
 
 Para acessar o meu projeto e experimentar a criptografia <a href="https://xand3.github.io/Codificador-Challenge-Oracle/" target="_blank">acesse aqui.</a>
+
