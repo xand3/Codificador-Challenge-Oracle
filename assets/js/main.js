@@ -97,6 +97,7 @@ function switchTheme() {
         $("#card").removeClass("card-dark fontColor")
         $(".shadow").removeClass("card-dark")
         $("#textFooter").removeClass("fontColor")
+        $("textarea").addClass("black")
     }
 }
 

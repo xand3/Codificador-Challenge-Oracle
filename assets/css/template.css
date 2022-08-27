@@ -101,3 +101,6 @@ footer img {
 textarea::placeholder {
     color: #0A3871;
 }
+.black {
+    color: #000;
+}
