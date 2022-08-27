@@ -47,4 +47,7 @@
     .btn {
         width: 260px;
     }
+    .input-area {
+        width: 40vh;
+    }
 }
