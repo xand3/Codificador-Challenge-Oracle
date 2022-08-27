@@ -13,9 +13,11 @@ O método de criptografia empregado no desafio tinha como base substituir vogais
 ### LAYOUT
 Para desenvolver esse desafio foi fornecido um modelo de layout padrão, cabendo ao aluno a implementação do mesmo.
 <img width="600px" height="auto"  src="assets/img/Decodificador - 1 Desktop.png"></img>
+
 **Modelo para Desktop**
 
 <img width="600px" height="auto" src="assets/img/codificador.png"></img>
+
 **Resultado final** 
 
 ### EXTRAS
