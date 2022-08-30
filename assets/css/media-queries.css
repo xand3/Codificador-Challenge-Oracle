@@ -50,4 +50,8 @@
     .input-area {
         width: 40vh;
     }
+    .result-area {
+        position: relative;
+        right: 10px;
+    }
 }
