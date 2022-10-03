@@ -39,6 +39,13 @@
     .btn {
         width: 260px;
     }
+    .btn {
+        width: 260px;
+    }
+    .result-area {
+        position: relative;
+        right: 15px;
+    }
 }
 @media (max-width: 330px) {
     #copiar {
