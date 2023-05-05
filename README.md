@@ -13,13 +13,15 @@ O método de criptografia empregado no desafio tinha como base substituir vogais
 ### LAYOUT
 Para desenvolver esse desafio foi fornecido um modelo de layout padrão, cabendo ao aluno a implementação do mesmo.
 
+**Modelo para Desktop**
+
 <img width="600px" height="auto"  src="assets/img/Decodificador - 1 Desktop.png"></img>
 
-**Modelo para Desktop**
+**Meu resultado final** 
 
 <img width="600px" height="auto" src="assets/img/codificador.png"></img>
 
-**Meu resultado final** 
+
 
 ### EXTRAS
 Durante o desenvolvimento do projeto me tive a ideia de implementar um modo escuro para a página, abaixo está o resultado final:
