@@ -22,7 +22,7 @@ Para desenvolver esse desafio foi fornecido um modelo de layout padrão, cabendo
 **Meu resultado final** 
 
 ### EXTRAS
-Durante o desenvolvimento do projeto me veio a ideia de implementar um modo escuro para a página, abaixo está o resultado final:
+Durante o desenvolvimento do projeto me tive a ideia de implementar um modo escuro para a página, abaixo está o resultado final:
 
 <img width="600px" height="auto" src="assets/img/codificador-dark.png"></img>
 
