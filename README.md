@@ -1,4 +1,6 @@
 # Codificador - Challenge Programa Oracle ONE
+![Badge Concluído](http://img.shields.io/static/v1?label=STATUS&message=Concluído&color=GREEN&style=for-the-badge)
+
 <p>Nesse desafio feito durante a formação da Oracle tive que desenvolver um codificador de texto usando HTML e CSS para construir o layout do projeto e JavaScript para implementar a lógica da criptografia.</p>
 
 ### LÓGICA
